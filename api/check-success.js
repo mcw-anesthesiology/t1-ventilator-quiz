@@ -1,10 +1,6 @@
 /** @format */
 
-const knex = require('knex');
-
-const knexfile = require('../knexfile.js');
-const config = knexfile[process.env.NODE_ENV || 'development'];
-const db = knex(config);
+const db = require('./db.js');
 
 const MAX_SCORE = 8;
 
@@ -31,6 +27,6 @@ module.exports = (req, res) => {
 			});
 	} catch (err) {
 		console.error('Server error', err);
-		res.status(500).end(false);
+		res.status(500).send(false);
 	}
 };

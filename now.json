@@ -4,5 +4,11 @@
 	"name": "t1-ventilator-quiz",
 	"alias": [
 		"t1-ventilator-quiz.mcw-anesth.tech"
-	]
+	],
+	"env": {
+		"DB_HOST": "db.mcw-anesthesiology.tech",
+		"DB_DATABASE": "t1-ventilator-quiz",
+		"DB_USER": "t1_ventilator_quiz",
+		"DB_PASSWORD": "@t1-ventilator-quiz-db-password"
+	}
 }
