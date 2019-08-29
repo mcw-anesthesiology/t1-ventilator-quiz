@@ -1,0 +1,22 @@
+{
+	"parserOptions": {
+		"ecmaVersion": 2019,
+		"sourceType": "module"
+	},
+	"env": {
+		"node": true,
+		"browser": true
+	},
+	"extends": "eslint:recommended",
+	"rules": {
+		"no-console": ["warn", {"allow": ["warn", "error"] }],
+		"no-var": "warn",
+		"no-unused-vars": ["error", {"argsIgnorePattern": "^_", "varsIgnorePattern": "^_"}],
+		"eqeqeq": "warn",
+		"semi": ["warn", "always"],
+		"no-spaced-func": "warn",
+		"comma-style": "warn",
+		"comma-spacing": "warn",
+		"key-spacing": "warn"
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "t1-ventilator-quiz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jacob Mischka <jmischka@mcw.edu>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "knex": "^0.19.3",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "sqlite3": "^4.1.0"
+  }
+}

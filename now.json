@@ -1,0 +1,8 @@
+{
+	"scope": "mcw-anesth",
+	"version": 2,
+	"name": "t1-ventilator-quiz",
+	"alias": [
+		"t1-ventilator-quiz.mcw-anesth.tech"
+	]
+}
